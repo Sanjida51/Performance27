@@ -1,0 +1,62 @@
+.box1{
+   height: 250px;
+    width: 250px;
+    padding: 20px;
+    border: 5px solid black;
+    background-color: aqua;
+    background-image: radial-gradient(circle at top ,#3873f7,#00d8ff,green) 
+}
+.box2{
+   height: 250px;
+    width: 250px;
+    padding: 20px;
+    border: 5px solid yellow;
+    background-color: blue;
+    background-image:repeating-radial-gradient(#e21035 12% 20%,#f535e6 20% 40%,#9d0a6a 40% 60%); 
+}
+.box3{
+   height: 250px;
+    width: 250px;
+    padding: 20px;
+    border: 5px solid black;
+    border-radius: 50%;
+    background-color: aqua;
+    background-image: conic-gradient(from 90deg,red 0deg,red 90deg,yellow 90deg,yellow 180deg,green 180deg,green 270deg,blue 270deg,blue 360deg);
+}
+.box4{
+   height: 250px;
+    width: 250px;
+    padding: 10px;
+    border: 20px solid black;
+    border-image: linear-gradient(blue,pink,gray)30;
+    background-color: aqua;
+    background-image: repeating-conic-gradient(red 10%,#53b98a 60deg 20deg);
+    color: #fff;
+}
+.box5{
+    height: 200px;
+    width: 200px;
+    box-shadow:0 4px 8px 0 rgba(0,0,0,0.2),0 6px 21px 0 rgba(0,0,0,0.2); 
+}
+.box6{
+    height: 250px;
+    width: 250px;
+    padding: 10px;
+    border-radius: 50%;
+    border: 25px solid #000;
+    border-image: linear-gradient(blue, pink, tomato);
+    background-color: aqua;
+    background-image: repeating-conic-gradient(green 10%, rgb(85, 0, 255) 60deg 20deg);
+}
+.box7{
+    height:250px;
+    width:250px;
+    background-color: red; /* For browsers that do not support gradients */
+  background-image: conic-gradient(darkred, red, rgb(247, 89, 5), orange, #ceff00, yellow, #3eea0a, green, darkgreen, #09c1ed, #2e43e2, blue, darkblue, black);
+}
+img{
+    width: 100%;  
+}
+p{
+   text-align: center; 
+}
